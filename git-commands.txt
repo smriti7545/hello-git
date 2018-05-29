@@ -1,0 +1,25 @@
+1.  Create a new local repository-
+    git init
+
+2.  Add one or more files to staging-
+    git add <filename>
+
+3.  Commit changes to head (but not yet to the remote repository)-
+    git commit -m "Commit Message"
+
+4.  Commit any files you've added with git add, and also commit any files you've changed since then-
+    git commit -a
+
+5.  Send changes to the master branch of your remote repository-
+    git push origin master
+
+6.  List the files you've changed and those you still need to add or commit-
+    git status
+
+7.  If you haven't connected your local repository to a remote server, add the server to be able to push to it-
+    git remote add origin <server>
+
+
+
+
+
